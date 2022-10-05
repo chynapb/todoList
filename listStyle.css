@@ -1,0 +1,140 @@
+html {
+  background: rgb(63,94,251);
+  background: linear-gradient(to right, rgb(128, 211, 247) 5%, rgb(171, 97, 240)100%);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 45px;
+  padding: 5px;
+}
+
+#textBox input {
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.199);
+  background: white;
+  font-size: 16px;
+  color: rgb(63, 63, 63);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#textBox input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #a5d1f5;
+}
+
+#textBox {
+  position: relative;
+  width: 450px;
+  margin: 10px auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#btn {
+  position: absolute;
+  right: 5px; 
+  top: 5px;
+  bottom: 5px;
+  border: 0;
+  background: rgb(123, 161, 244);
+  color: #fff;
+  outline: none;
+  border-radius: 2px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn:hover {
+  background: rgb(90, 118, 232);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#listItems {
+  margin: 20px;
+  padding: 10px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(72, 72, 72);
+  font-size: 16px;
+  list-style-type:none;
+  max-width: 450px;
+  width: 100%;
+  border-radius: 2px;
+  margin: 10px auto;
+  background: white;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.199);
+  padding: 10px;
+  line-height: 1;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#deleteBtn {
+  border: none;
+  background-color: transparent;
+  color: rgb(72, 72, 72);
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+#deleteBtn:hover {
+  color: #eb2d1f;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#doneBtn {
+  border: none;
+  background-color: transparent;
+  color: rgb(72, 72, 72);
+  position: absolute;
+  right: 0px;
+  top: 5px;
+}
+
+#doneBtn:hover {
+  color: #03b60c;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+  background-color: rgba(255, 255, 255, 0.541);
+}
+
+#reset {
+  position: relative;
+}
+
+#resetBtn {
+  border: none;
+  background: transparent;
+  font-family: Raleway;
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-right: 712px;
+}
+
+#resetBtn:hover {
+  cursor: pointer;
+}
