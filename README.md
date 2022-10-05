@@ -1,2 +1,2 @@
 # To-Do List
-Keep all your tasks organized with this interactive to-do list app.
+Keep all your tasks organized with this interactive to-do list application.
