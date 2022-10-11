@@ -62,11 +62,6 @@ h1 {
   cursor: pointer;
 }
 
-#listItems {
-  margin: 20px;
-  padding: 10px;
-}
-
 li {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(72, 72, 72);
@@ -120,7 +115,8 @@ li {
 }
 
 #reset {
-  position: relative;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #resetBtn {
@@ -129,9 +125,6 @@ li {
   font-family: Raleway;
   font-size: 12px;
   color: white;
-  position: absolute;
-  left: 58%;
-  top: 10px;
 }
 
 #resetBtn:hover {
