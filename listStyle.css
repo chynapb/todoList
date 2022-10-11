@@ -130,9 +130,8 @@ li {
   font-size: 12px;
   color: white;
   position: absolute;
+  left: 58%;
   top: 10px;
-  right: 10px;
-  margin-right: 392px;
 }
 
 #resetBtn:hover {
